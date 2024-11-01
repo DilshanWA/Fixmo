@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "245216933676",
+    "firebase_url": "https://fixmoapp-a5694-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fixmoapp-a5694",
+    "storage_bucket": "fixmoapp-a5694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245216933676:android:9a68201c0671e83c089e89",
+        "android_client_info": {
+          "package_name": "com.dilshan.clickfixandroidapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnWwjVUkwU3Ve1VoI7njHd3WOK6G5ID-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

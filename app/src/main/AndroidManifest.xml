@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ClickfixAndroidApp"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Mainhome"
+            android:windowSoftInputMode="adjustPan|adjustResize">
+        </activity>
+
+        <activity
+            android:name=".SaveItems"
+            android:exported="false" />
+        <activity
+            android:name=".Electrician"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".Plumbing"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".Carpenter"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".Chef"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".Cleaning"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".Password_resetpage"
+            android:exported="false" /> <!-- Activities -->
+        <activity
+            android:name=".serviceDetailsingle"
+            android:exported="false" />
+        <activity
+            android:name=".navigationHome"
+            android:exported="false" />
+        <activity
+            android:name=".homeMain"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".Service_add_form"
+            android:exported="false" />
+        <activity
+            android:name=".painter"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".service_provide"
+            android:exported="false" />
+        <activity
+            android:name=".Get_Start"
+            android:exported="false" />
+        <activity
+            android:name=".Select_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".custmersignup"
+            android:exported="false" />
+        <activity
+            android:name=".SignupCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".Login_page"
+            android:exported="false" />
+        <activity
+            android:name=".Get_start"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceDetailActivity" />
+        <activity
+            android:name=".CustomerSignup"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/my_api_key" />
+    </application>
+
+</manifest>
